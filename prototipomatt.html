@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maquetamatt</title>
+     <link rel="stylesheet" href="protodiseñomatt.css"/>
+</head>
+<body>
+
+    <!---Encabezado--->
+
+   <header>
+     <button class="boton1"> 
+        <img src="b-perfil.png" alt="perfil">
+    </button>
+
+    <div class="logo">
+    <img src="Picsart_25-06-13_21-57-16-227.png" alt="logo MATT">
+    </div>
+     
+     <button class="boton3">
+        <img src="ubicacion.png" alt="maps">
+     </button>
+    <button class="boton2">
+        <img src="b-menu.png" alt="menu">
+    </button>
+   </header>
+
+   <!---navegacion 1---->
+
+   <nav class="nav-principal">
+    <a href="#relojes" class="nav-link">Relojes</a>
+    <a href="#joyas"class="nav-link">Joyas</a>
+    <a href="#moda"class="nav-link">Moda</a>
+   </nav>
+
+   <!---navegacion 2---->
+   <nav class="nav-principal2">
+    <a href="#colecciones" class="nav-link2">Colecciones</a>
+    <a href="#exclusivo"class="nav-link2">Exclusivo</a>
+   </nav>
+
+<div class="contenedor-general">
+
+   <!---contenido informativo-->
+
+   <aside id="contenido-info">
+         <section class="mat-expo">
+            <h1 class="tituloexpomatt">EXPO MATT 2025</h1>
+            <div class="img-expo">
+               <p class="texto-expo"> 
+                Expo MATT abre sus puertas con una deslumbrante colección de joyas de lujo que fusionan arte, elegancia y exclusividad.
+                 Bajo una cuidada puesta en escena, la exposición invita a descubrir piezas únicas engastadas con diamantes, esmeraldas y piedras preciosas, elaboradas por reconocidos maestros joyeros de todo el mundo. 
+                <img src="img-pn/expo 1.jpg" alt="">
+                </p>  
+            </div>
+            <div class="img-expo">
+                <p class="texto-expo">
+                    <img src="img-pn/expo 2.jpg" alt=""> 
+                    Desde diseños clásicos inspirados en la realeza hasta joyería contemporánea de autor, Expo MATT ofrece un recorrido fascinante por el universo del lujo y la artesanía fina.
+                    Una experiencia sensorial que revela la belleza eterna de las joyas y el legado artístico que representan.
+                </p>
+            </div>
+         </section>
+
+         <section class="mat-ubicacion">
+
+            <h2 class="tituloubicacion">
+                visitanos
+            </h2>
+
+            <p class="texto-ubicacion"> 17 Marlowe Crescent, Ashbridge, Northshire, UK <img src="img-pn/ubi 1.jpeg" alt="ubi1"> </p> 
+            <p class="texto-ubicacion"> 82 Bellthorne Lane, Westwell Heath, Eastford, England <img src="img-pn/ubi 2.jpg" alt="ubi2"> </p> 
+         </section>
+   </aside>
+
+   <!---contenido principal-->
+
+   <main class="contenido">
+    <section class="Productos">
+        <h2 class="titulo">
+             MATT
+        </h2>
+        <div class="galeria">
+           <div class="producto"><img src="longuines.png" alt="longuines">
+           </div>
+           <div class="producto"><img src="rolex2.png" alt="rolex2">
+           </div>
+           <div class="producto"><img src="hamilton.png" alt="hamilton">
+           </div>
+        <div>
+    </section>
+
+    <section class="novedades">
+        <h2 class="titulo">
+            Novedades MATT
+        </h2>
+        <div class="galeria-novedades">
+            <div>
+            <img id ="imagen-nov" src="img-pn/longines-conquest 1.jpg" alt="img1">
+            </div>
+            <div class="controles">                
+                <button onclick="anterior()">-</button>
+                <button onclick="siguiente()">+</button>
+            </div>
+            <p id="info-novedad">
+                    Nuevas Coleciones :
+                    Longines Conquest y Longines La Grande 
+                </p>
+             <div>
+            <img id ="imagen-nov2" src="img-pn/traje 1.jpg" alt="img2">
+            </div>
+            <div class="controles2">                
+                <button onclick="anterior2()">-</button>
+                <button onclick="siguiente2()">+</button>
+            </div>
+            <p id="info-novedad2">
+                    Nuevos trajes para hombre 
+                </p>
+        </div>
+    </section>
+   </main>
+   </div>
+   <script src="protodetallematt.js"></script>
+</body>
