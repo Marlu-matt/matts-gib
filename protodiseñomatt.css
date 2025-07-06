@@ -239,3 +239,193 @@ position: absolute;
   text-align: center;
   margin-top: 10px;
 }
+/*=========html relojes====*/
+
+.titulor {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 40px;
+  color: #a58723;
+  margin-top: 70px;
+}
+ 
+/*===botones de la navegacion en relojes ===*/
+
+
+#botonesr button{
+  margin-bottom: 40px;
+}
+
+.botonr {
+  padding: 10px 20px;
+  border: 2px solid transparent;     
+  border-radius: 5px;        
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.3s ease;
+  flex-direction: column;
+  font-weight: bold;         
+  font-family: 'Times New Roman', Times, serif
+}
+.botonr:hover {
+  color: #D4AF37;
+  border-color: #D4AF37;
+}
+
+.contenedor-general-relojerm {
+  margin-top: 50px;
+  display: flex;
+}
+
+/*=======productos mujeres=====*/
+
+.rm {
+    padding: 1px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: solid transparent;
+    border-radius: 5px;
+}
+.rm img { 
+    width: 190px;
+    height: auto;
+    border-radius: 8px;
+}
+.rm:hover {
+    transform: scale(1.05);
+    border-color: #D4AF37
+}
+.reloj-mujeres {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: 10px; 
+  margin-top: 30px;   
+}
+
+/*===promo relojes de mujeres==*/
+
+.promorm {
+  display: flex;
+}
+.promo {
+  width: auto;
+}
+.descripcion {
+  max-width: 500px;
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 20px;
+}
+.precio{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*==html joyas==*/
+
+/*==contenedore generales joyas==*/
+.contenedor-general-joyas{
+  margin-top: 40px;
+  display: flex;
+}
+.s1ys2j {
+  display: flex;
+}
+
+/*== seccion novedades joyas==*/
+
+.joyasn {
+  overflow: hidden;
+}
+.joyasn img {
+  border-radius: 5px;
+  width: 300px;
+  object-fit: cover;
+  transition: 0,5s ease;
+}
+.joyasn img:hover {
+  transform: scale(1.05);
+}
+.desc {
+  display: flex;
+  align-items: center;
+  width: 310px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*== seccion joyas matt==*/
+
+.imj {
+  border: solid transparent;
+  display: block;
+  margin: 0px;
+    width: auto;
+    padding: 0 px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.imj img { 
+    border-radius: 8px;
+}
+.imj:hover {
+    transform: scale(1.05);
+    border-color: #D4AF37
+}
+.mat-joya {
+  width:600px;
+}
+.matj {
+ display: flex;
+ margin-top: 40px;
+}
+.j-info{
+  width: 500px;
+}
+
+/*==botones categorias ==*/
+
+.botonj {
+  padding: 10px 30px;
+  border: 2px solid black;     
+  border-radius: 5px;        
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.3s ease;
+  flex-direction: column;
+  font-weight: bold;         
+  font-family: 'Times New Roman', Times, serif
+}
+.botonj {
+  justify-content: center;
+  align-items: center;
+}
+.botonj:hover {
+  color: #D4AF37;
+  border-color: #D4AF37;
+}
+.b-cita {
+  display: flex;
+  justify-content: center;
+}
+.categoria {
+  margin-top: 300px;
+  width: 200px;
+}
+.categoria img {
+  width: 190px;
+}
+.botones-cat {
+  justify-content: center;
+  margin-top: 120px;
+}
