@@ -34,3 +34,39 @@ function anterior2() {
   indice2 = (indice2 - 1 + imagenes2.length) % imagenes2.length;
   mostrarImagen2();
 }
+const boton1 = document.getElementById('boton1');
+    const loginForm = document.getElementById('loginForm');
+    const backdrop = document.getElementById('backdrop');
+
+    boton1.addEventListener('click', () => {
+      const rect = boton1.getBoundingClientRect();
+
+      loginForm.style.top = `${rect.bottom + window.scrollY + 5}px`;
+      loginForm.style.right = `${rect.right + window }px`;
+
+      loginForm.style.display = 'block';
+      backdrop.style.display = 'block';
+    });
+
+    backdrop.addEventListener('click', () => {
+      loginForm.style.display = 'none';
+      backdrop.style.display = 'none';
+    });
+    
+ function validarFormulario() {
+      const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmPassword").value;
+      const errorMensaje = document.getElementById("errorMensaje");
+
+      if (password !== confirmPassword) {
+        errorMensaje.textContent = "Las contraseñas no coinciden.";
+        return false;
+      }
+
+      errorMensaje.textContent = "";
+      alert("Registro exitoso (simulado)");
+      return true;
+    }
+  document.getElementById("ir").addEventListener("click", function () {
+    window.location.href = "pagina.html";
+  });
